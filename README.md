@@ -34,3 +34,9 @@
 自动修改配置文件
 已chattr +i /serverspeeder/etc/apx*禁止修改配置文件，可以不用加hosts了
 目前只支持CentOS，ubuntu和debian。如果有其他系统支持，可以到[91yun.org我的博客](http://www.91yun.org/serverspeeder91yun)手动下载其他系统的安装包
+# 锐速操作指令：
+
+/serverspeeder/bin/serverSpeeder.sh start       #启动锐速
+/serverspeeder/bin/serverSpeeder.sh stop 	#停止锐速
+/serverspeeder/bin/serverSpeeder.sh restart	#重启锐速
+/serverspeeder/bin/serverSpeeder.sh status	#锐速运行状态
